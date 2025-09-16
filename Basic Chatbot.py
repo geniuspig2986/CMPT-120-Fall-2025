@@ -1,3 +1,4 @@
+import random
 # Chatbot
 # Author: Shenghua Jin
 # September 8 2025
@@ -11,4 +12,19 @@ name = input()
 # Cover edge cases
 # Respond nicely
 print("Nice to meet you " + name)
+
+print("fav book?")
+book = input()
+
+comment_choices = ["nice book", "cool book", "bad book not cool"]
+print(random.choice(comment_choices))
+
+print("how are you today?")
+reply = input()
+if reply == "good":
+    print("thats nice")
+elif reply == "bad":
+    print("oh no")
+else:
+    print("cool")
 
