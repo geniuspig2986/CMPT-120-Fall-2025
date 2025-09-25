@@ -1,2 +1,6 @@
-FILE *fptr;
-fptr = fopen("filename.txt", "w");
+int main(){
+    FILE *fptr;
+    fptr = fopen("filename.txt", "w");
+    fclose(fptr);
+    return 0;
+}

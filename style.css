@@ -1,0 +1,38 @@
+body{
+    margin: 0
+}
+.main{
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    height:100vh;
+}
+.resume{
+    color:aliceblue;
+    background-color:maroon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    align-items:normal!important;
+}
+.blog{
+    background-color: whitesmoke;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    overflow-y: auto;
+}
+img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+h2{
+    margin:0
+}
+.post{
+    border: 2px black solid;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
